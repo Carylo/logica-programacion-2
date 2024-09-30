@@ -1,0 +1,58 @@
+html, body {
+    background: radial-gradient(farthest-side, #d8caab, #0e720e59);
+    display:inline-block
+    
+}
+
+body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    flex-direction: column; 
+}
+
+#titulo {
+    color: rgb(66, 64, 61);
+    font-size: 60px;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 20px; 
+   
+}
+
+#gradosCelsius {
+    width: 65vh; 
+    font-size: 25px;
+    border: none;
+    background-color: rgba(46, 61, 43, 0.719);
+    color: white;
+    margin-bottom: 20px; 
+}
+
+#botonConversor, #botonBorrar {
+    border: none;
+    background-color: rgba(46, 61, 43, 0.719);
+    color: white;
+    border-radius: 5%;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px; 
+    margin-right: 10px; 
+}
+
+#botonConversor:hover,
+#botonBorrar:hover {
+    background-color: #108d10a8;
+}
+
+#resultado {
+    color: rgb(66, 64, 61);
+    font-size: 22px;
+        width: 65vh; 
+    justify-content: left; 
+    margin-bottom: 20px; 
+
+}
